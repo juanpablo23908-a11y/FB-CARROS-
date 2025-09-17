@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FB Motors - Catálogo</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f5f5f5; }
+    header { background: #1a1a1a; color: #fff; text-align: center; padding: 20px; }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: 5px 0 0; font-size: 1.1rem; }
+    .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; padding: 20px; }
+    .car-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); overflow: hidden; transition: transform 0.2s; }
+    .car-card:hover { transform: scale(1.02); }
+    .car-card img { width: 100%; height: 200px; object-fit: cover; }
+    .car-info { padding: 15px; }
+    .car-info h3 { margin: 0 0 10px; }
+    .car-info p { margin: 5px 0; color: #555; }
+    .reserve-btn { display: block; background: #25d366; color: white; text-align: center; padding: 10px; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 10px; }
+    .reserve-btn:hover { background: #1ebe57; }
+    footer { text-align: center; padding: 15px; background: #1a1a1a; color: #fff; margin-top: 20px; }
+    .map-container { margin: 20px auto; max-width: 800px; }
+    iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>FB Motors</h1>
+    <p>Seu próximo carro está aqui 🚗</p>
+  </header>
+
+  <main class="container">
+    <!-- Tracker 2014 -->
+    <div class="car-card">
+      <img src="LINK_IMAGEM_TRACKER" alt="Tracker 2014 1.8 LTZ Completa">
+      <div class="car-info">
+        <h3>Tracker 2014 1.8 LTZ Completa</h3>
+        <p>Detalhes do carro</p>
+        <p><strong>Preço</strong></p>
+        <a class="reserve-btn" href="https://wa.me/5531986967475?text=Olá,+gostaria+de+mais+informações+sobre+Tracker+2014+1.8+LTZ+Completa,+ou+saber+se+está+disponível.">Reservar/Informações</a>
+      </div>
+    </div>
+
+    <!-- Fiesta 2015 -->
+    <div class="car-card">
+      <img src="LINK_IMAGEM_FIESTA" alt="Fiesta 2015 1.5 Completo">
+      <div class="car-info">
+        <h3>Fiesta 2015 1.5 Completo</h3>
+        <p>Detalhes do carro</p>
+        <p><strong>Preço</strong></p>
+        <a class="reserve-btn" href="https://wa.me/5531986967475?text=Olá,+gostaria+de+mais+informações+sobre+Fiesta+2015+1.5+Completo,+ou+saber+se+está+disponível.">Reservar/Informações</a>
+      </div>
+    </div>
+
+    <!-- Gol 2014 -->
+    <div class="car-card">
+      <img src="LINK_IMAGEM_GOL" alt="Gol 2014 1.0 Completo">
+      <div class="car-info">
+        <h3>Gol 2014 1.0 Completo</h3>
+        <p>Detalhes do carro</p>
+        <p><strong>Preço</strong></p>
+        <a class="reserve-btn" href="https://wa.me/5531986967475?text=Olá,+gostaria+de+mais+informações+sobre+Gol+2014+1.0+Completo,+ou+saber+se+está+disponível.">Reservar/Informações</a>
+      </div>
+    </div>
+  </main>
+
+  <div class="map-container">
+    <h2 style="text-align:center;">📍 Como chegar</h2>
+    <iframe src="https://www.google.com/maps?q=Rua+das+Perpétuas,+235,+Lindeia,+Belo+Horizonte,+MG,+30690-270,+Brasil&output=embed" allowfullscreen="" loading="lazy"></iframe>
+  </div>
+
+  <footer>
+    <p>📍 Rua das Perpétuas, 235 - Lindeia, Belo Horizonte - MG, 30690-270, Brasil</p>
+    <p>📞 (31) 98696-7475</p>
+    <p>&copy; 2025 FB Motors - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
